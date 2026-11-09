@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-companion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Autonomous Minecraft companion (Phase 1: connect and follow the owner)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:env": "node --env-file=.env src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "mineflayer": "4.39.0",
+    "mineflayer-pathfinder": "2.4.5"
+  }
+}
